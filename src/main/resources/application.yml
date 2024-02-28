@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mysql://database-1.cxsweoc2mrwu.ap-northeast-2.rds.amazonaws.com:3306/mysql
-    username: ${{ secrets.USER_NAME }}
-    password: ${{ secrets.PASSWORD }}
+    username: admin
+    password: 12345678
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
